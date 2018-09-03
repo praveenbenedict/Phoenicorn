@@ -1,0 +1,249 @@
+body{
+    background: url(../img/bg.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+header{
+    top:0px;
+    left:0px;
+    height: 100vh;
+}
+
+#web .section-content p{
+    padding: 30px;
+}
+
+#web .section-content a{
+
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    background: #3b77e7;
+    color: white;
+    border: 2px solid #3b77e7;
+    text-decoration: none;
+
+}
+
+#web .section-content a:hover{
+
+    display: block;
+    padding: 15px;
+    background: transparent;
+    color: #3b77e7;
+
+}
+
+#web .row{
+    margin-bottom: 80px;
+}
+
+#web .mob{
+    z-index: 9;
+    position: absolute;
+    bottom: 30px;
+    right: 120px;
+}
+#web .lg{
+    z-index: -9;
+}
+
+#web .sweatit-sm{
+    z-index: 9;
+    position: absolute;
+    bottom: -10px!important;
+    right: 10px!important;
+}
+
+#web .view-more {
+    margin-top: 100px;
+}
+
+#web .view-more p{
+    padding: 5px;
+    font-size: 22px;
+}
+
+
+
+#web .view-more a{
+    margin-left: 30px;
+    color: #3b77e7;
+    text-decoration: none;
+    border: 2px solid #3b77e7;
+    padding: 10px;
+}
+
+#web .view-more a:hover{
+    background: #3b77e7;
+    margin-left: 30px;
+    color: white;
+
+}
+
+#data-analysis {
+    margin-bottom: 100px;
+}
+
+#ai {
+    margin-bottom: 100px;
+}
+
+#ai .section-content,
+#data-analysis .section-content {
+    margin-bottom: 60px;
+}
+
+#ai .section-heading,
+#data-analysis .section-heading{
+    margin-bottom: 28px;
+}
+
+#ai p,
+#data-analysis p{
+    font-size: 20px;
+}
+
+#testimonial-carousel {
+    height: 60vh;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #3b77e7;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #3b77e7;
+}
+
+#testimonial-carousel h4{
+    font-style: italic;
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* Small Devices */
+    #web img {
+        width: 100%;
+        text-align: center;
+    }
+
+    #web .mob{
+        right: 20px;
+    }
+
+    #web .mob img{
+        width: 50px;
+    }
+    #web h3 {
+        text-align: center;
+    }
+    #web .fenestra-sm {
+        z-index: 9;
+        position: absolute;
+        width: 85px!important;
+        right: 0px;
+        bottom: -20px;
+    }
+
+    #web .sweatit-sm {
+        width: 55px!important;
+    }
+
+    #web .web-content {
+        margin-top: 50px;
+    }
+    #web .view-more .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #web .view-more a{
+        display: block;
+        width: 50%;
+        margin: 30px;
+        text-align: center;
+    }
+    
+    #testimonial-carousel h4{
+        text-align: left!important;
+        padding: 20px;
+        padding-left:35px;
+        font-size:20px;
+    }
+
+    #testimonial-carousel {
+        min-height: 80vh;
+    }
+
+    #testimonial-carousel p{
+        text-align: right;
+        padding: 10px;
+    }
+    #testimonial-carousel img{
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+    .active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #industry-partners .section-heading {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+
+    #industry-partners .section-heading {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    #web .view-more .row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    
+    #testimonial-carousel h4{
+        padding: 20px 170px 20px 170px; 
+    }
+
+    #testimonial-carousel p{
+        text-align: center;
+        padding: 10px;
+        font-size: 19px;
+    }
+
+    #testimonial-carousel img{
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
